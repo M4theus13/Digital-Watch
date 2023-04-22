@@ -110,3 +110,63 @@ body {
     box-shadow: 0px 10px 30px -2px #000000;
     font-weight: bold;
 }
+
+@media (max-width:768px) {
+    .clock {
+        width: 60%;
+        height: 55%;
+        column-gap: 5px;
+    }
+    
+    .time {
+        font-size: 16px;
+    }
+    
+    #hours, #minutes, #seconds{
+        font-size: 60px;
+        height: 55%;
+    }
+
+    .box-day, .box-month, .box-year {
+        margin: 0 2px;
+    }
+
+
+    #day, #month, #year {
+        font-size: 26px;
+    }
+
+    .data {
+        font-size: 12px
+    }
+}
+
+@media (max-width:460px) {
+    .clock {
+        width: 90%;
+        height: 35%;
+        column-gap: 5px;
+    }
+    
+    .time {
+        font-size: 16px;
+    }
+    
+    #hours, #minutes, #seconds{
+        font-size: 30px;
+        height: 55%;
+    }
+
+    .box-day, .box-month, .box-year {
+        margin: 0 2px;
+    }
+
+
+    #day, #month, #year {
+        font-size: 16px;
+    }
+
+    .data {
+        font-size: 12px
+    }
+}

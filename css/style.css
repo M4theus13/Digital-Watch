@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pathway Extreme', sans-serif;
+
+}
+
+:root {
+    --color-500-blue: #4d68f4;
+    --color-200-blue: #7ccfff;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, var(--color-500-blue) , var(--color-200-blue), var(--color-500-blue));
+}
+
+.clock {
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 30%;
+    grid-template-areas: 
+    "hours minutes seconds" 
+    "box-data box-data box-data";
+    place-items: center;
+    column-gap: 25px;
+    box-shadow: 0px 5px 30px #000000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box-hours {
+    grid-area: hours;
+}
+
+.box-minutes {
+    grid-area: minutes;
+}
+
+.box-seconds {
+    grid-area: seconds;
+}
+
+.box-data {
+    grid-area: box-data;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.box-hours, .box-minutes, .box-seconds{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.box-day, .box-month, .box-year {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    margin: 0 5px;
+}
+
+#hours, #minutes, #seconds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 80px;
+    padding: 10px;
+    font-family: 'Electrolize', sans-serif;
+    box-shadow: 0px 10px 30px -2px #000000;
+    font-weight: bold;
+}
+
+.time {
+    font-size: 23px;
+}
+
+#day, #month, #year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px;
+    box-shadow: 0px 10px 30px -2px #000000;
+    font-weight: bold;
+}

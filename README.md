@@ -15,7 +15,7 @@
 	<img width="49%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/desktopTimer.png">
 </div>
 <div align="center">
-	<h2>Tablets</h2>
+	<h2>Tablet</h2>
 	<img width="39%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/tabletClock.png">
 	<img width="39%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/tabetTimer.png">
 </div>

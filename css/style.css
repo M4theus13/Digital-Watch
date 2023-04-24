@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: 'Pathway Extreme', sans-serif;
     text-decoration: none;
+    color: white;
 }
 
 :root {
@@ -244,6 +245,7 @@ main {
     #hours, #minutes, #seconds{
         font-size: 30px;
         height: 55%;
+        border-radius: 10px;
     }
 
     .box-day, .box-month, .box-year {

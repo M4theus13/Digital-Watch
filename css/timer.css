@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 
-* {
+
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,10 +16,12 @@
     --color-700: #1e1e1e;
 }
 
+
 main {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background: linear-gradient(0deg, var(--color-500) , var(--color-200), var(--color-500));
@@ -44,7 +47,6 @@ main {
     width: 7%;
     background-color: var(--color-700);
     position: absolute;
-    left: 0;
 }
 
 @keyframes open-menu {
@@ -66,7 +68,6 @@ main {
         left: -20vw;
     }
 }
-
 
 .menu {
     display: flex;
@@ -90,95 +91,53 @@ main {
     margin: 5px;
 }
 
-.clock {
+.container {
     width: 50%;
     height: 50%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 1fr 30%;
-    grid-template-areas: 
-    "hours minutes seconds" 
-    "box-data box-data box-data";
-    place-items: center;
-    column-gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0px 5px 30px #000000;
     border-radius: 20px;
-    padding: 25px 30px 10px 30px;
 }
 
-.box-hours {
-    grid-area: hours;
-}
-
-.box-minutes {
-    grid-area: minutes;
-}
-
-.box-seconds {
-    grid-area: seconds;
-}
-
-.box-data {
-    grid-area: box-data;
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.box-hours, .box-minutes, .box-seconds{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 5px;
-}
-
-.box-day, .box-month, .box-year {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    width: 50%;
-    height: 50%;
-    margin: 0 5px;
-}
-
-#hours, #minutes, #seconds {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 70%;
-    background-color: black;
+#timer {
     color: white;
+    background-color: black;
     border-radius: 20px;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 80px;
-    padding: 10px;
     font-family: 'Electrolize', sans-serif;
     box-shadow: 0px 10px 30px -8px #000000;
-    font-weight: bold;
 }
 
-.time {
-    font-size: 23px;
+.buttons {
+    margin-top: 40px;    
 }
 
-#day, #month, #year {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
+#play, #pause, #stop {
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
     color: white;
-    border-radius: 10px;
-    font-size: 30px;
-    padding: 10px;
-    box-shadow: 0px 10px 30px -7px #000000;
+    margin: 0 10px;
     font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px -3px #000000;
+    background-color: #525252;
 }
 
 @media (max-width:1024px) {
+    .container {
+        height: 40%;
+    }
+
     #bar {
         width: 10%;
     }
@@ -186,37 +145,25 @@ main {
     #button {
         left: 35px;
     }
+
+    #timer {
+        font-size: 50px;
+    }
 }
 
 @media (max-width:768px) {
-    .clock {
-        width: 60%;
-        height: 55%;
-        column-gap: 5px;
-    }
-    
-    .time {
-        font-size: 16px;
-    }
-    
-    #hours, #minutes, #seconds{
-        font-size: 60px;
-        height: 65%;
+    .container {
+        height: 40%;
     }
 
-    .box-day, .box-month, .box-year {
-        margin: 0 2px;
+    #timer {
+        font-size: 40px;
     }
 
-
-    #day, #month, #year {
-        font-size: 26px;
+    #play, #pause, #stop {
+        width: 80px;
     }
 
-    .data {
-        font-size: 12px
-    }
-    
     #bar {
         width: 15%;
     }
@@ -230,33 +177,23 @@ main {
     }
 }
 
-@media (max-width:460px) {
-    .clock {
-        width: 90%;
-        height: 35%;
-        column-gap: 5px;
-    }
-    
-    .time {
-        font-size: 16px;
-    }
-    
-    #hours, #minutes, #seconds{
-        font-size: 30px;
-        height: 55%;
+@media (max-width:468px) {
+    .container {
+        height: 40%;
+        width: 70%;
     }
 
-    .box-day, .box-month, .box-year {
-        margin: 0 2px;
+    .buttons {
+        margin-top: 10px;
     }
 
-
-    #day, #month, #year {
-        font-size: 16px;
+    #timer {
+        font-size: 20px;
     }
 
-    .data {
-        font-size: 12px
+    #play, #pause, #stop {
+        width: 60px;
+        margin: 0px;
     }
 
     #bar {

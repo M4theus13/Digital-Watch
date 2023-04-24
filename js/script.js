@@ -5,6 +5,19 @@ const day = document.getElementById('day');
 const month = document.getElementById('month');
 const year = document.getElementById('year');
 
+const button = document.getElementById('button');
+
+button.addEventListener('click', function() {
+    const bar = document.getElementById('bar');
+    if (bar.style.left === "-20vw") {
+        bar.style.animation = "linear .2s open-menu";
+        bar.style.left = "0vw";
+    } else {
+        bar.style.animation = "linear .2s close-menu";
+        bar.style.left = "-20vw";
+    }
+})
+
 const relogio = setInterval(function time() {
     let dateToday = new Date();
 
@@ -12,8 +25,8 @@ const relogio = setInterval(function time() {
     let min = dateToday.getMinutes();
     let s = dateToday.getSeconds();
     
-    let dd = dateToday.getDay();
-    let MM = dateToday.getMonth();
+    let dd = dateToday.getDate();
+    let MM = dateToday.getMonth()+1;
     let YYYY = dateToday.getFullYear();
 
     if (hr < 10) hr = "0" + hr;

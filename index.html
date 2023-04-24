@@ -9,38 +9,57 @@
     <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
 </head>
 <body>
-    <div class="clock">
-        <div class="box-hours">
-            <span id="hours">00</span>
-            <span class="time">Hours</span>
-        </div>
-
-        <div class="box-minutes">
-            <span id="minutes">00</span>
-            <span class="time">Minutes</span>
-        </div>
-
-        <div class="box-seconds">
-            <span id="seconds">00</span>
-            <span class="time">Seconds</span>
-        </div>
-        <div class="box-data">
-            <div class="box-day">
-                <span id="day">00</span>
-                <span class="data">Day</span>
+    <main>
+        <button id="button"><img src="/assets/menu.png" alt="menu-icon" id="menu-icon"></button>
+        <nav id="bar" style="left: -20vw;">
+            <ul class="menu">
+                <a href="index.html">
+                    <li>
+                        <img src="/assets/clock.png" alt="clock" class="icon-menu">
+                        Clock
+                    </li>
+                </a>
+                <a href="timer.html">
+                    <li>
+                        <img src="/assets/timer.png" alt="timer" class="icon-menu">
+                        Timer
+                    </li>
+                </a>
+            </ul>        
+        </nav>
+        <div class="clock">
+            <div class="box-hours">
+                <span id="hours">00</span>
+                <span class="time">Hours</span>
             </div>
-
-            <div class="box-month">
-                <span id="month">00</span>
-                <span class="data">Month</span>
+    
+            <div class="box-minutes">
+                <span id="minutes">00</span>
+                <span class="time">Minutes</span>
             </div>
+    
+            <div class="box-seconds">
+                <span id="seconds">00</span>
+                <span class="time">Seconds</span>
+            </div>
+            <div class="box-data">
+                <div class="box-month">
+                    <span id="month">00</span>
+                    <span class="data">Month</span>
+                </div>
 
-            <div class="box-year">
-                <span id="year">0000</span>
-                <span class="data">Year</span>
+                <div class="box-day">
+                    <span id="day">00</span>
+                    <span class="data">Day</span>
+                </div>
+    
+                <div class="box-year">
+                    <span id="year">0000</span>
+                    <span class="data">Year</span>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
 </body>
 <script src="./js/script.js"></script>
 </html>

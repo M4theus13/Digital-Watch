@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="/css/timer.css">
+    <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <button id="button"><img src="/assets/menu.png" alt="menu-icon" id="menu-icon"></button>
+        <nav id="bar" style="left: -20vw;">
+            <ul class="menu">
+                <a href="index.html">
+                    <li>
+                        <img src="/assets/clock.png" alt="clock" class="icon-menu">
+                        Clock
+                    </li>
+                </a>
+                <a href="timer.html">
+                    <li>
+                        <img src="/assets/timer.png" alt="timer" class="icon-menu">
+                        Timer
+                    </li>
+                </a>
+            </ul>        
+        </nav>
+        <div class="container">
+            <h1 id="timer">00 : 00 : 00</h1>
+            <div class="buttons">
+                <button id="play">play</button>
+                <button id="pause">pause</button>
+                <button id="stop">stop</button>
+            </div>
+        </div>
+    </main>
+    <script src="./js/timer.js"></script>
+</body>
+</html>

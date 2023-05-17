@@ -11,18 +11,24 @@
 
 <div align="center">
 	<h2>Desktop</h2>
-	<img width="49%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/desktopClock.png">
-	<img width="49%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/desktopTimer.png">
+	<a href='https://github.com/M4theus13'>
+		<img width="49%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/desktopClock.png">
+		<img width="49%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/desktopTimer.png">
+	</a>
 </div>
 <div align="center">
 	<h2>Tablet</h2>
-	<img width="39%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/tabletClock.png">
-	<img width="39%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/tabetTimer.png">
+	<a href='https://github.com/M4theus13'>
+		<img width="39%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/tabletClock.png">
+		<img width="39%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/tabetTimer.png">
+	</a>
 </div>
 <div align="center">
 	<h2>Mobile</h2>
-	<img width="30%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/mobileClock.png">
-	<img width="30%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/mobileTimer.png">
+	<a href='https://github.com/M4theus13'>
+		<img width="30%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/mobileClock.png">
+		<img width="30%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/mobileTimer.png">
+	</a>
 </div>
 
 <h2 align="center"> ⚙ Tecnologias </h2>

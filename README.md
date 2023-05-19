@@ -14,6 +14,7 @@
 
 <p align="center"> Relógio Digital e Cronômetro Web.</p>
 <p align="center"> O projeto contém página de relógio digital e também uma página com cronômetro.</p>
+<p align="center"> Para testar o projeto, segue o <a href='https://digitalclock.bohr.io'>Link</a></p>
 
 <div align="center">
 <h2>Resultados</h2>

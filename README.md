@@ -2,7 +2,7 @@
 
 <p align="center">
  <a href="https://github.com/M4theus13/Digital-Watch#descri%C3%A7%C3%A3o-do-projeto">Descrição do Projeto</a> •
- <a href="https://github.com/M4theus13/Digital-Watch#resultados">Resultados</a> • 
+ <a href="https://github.com/M4theus13/Digital-Watch#resultado">Resultado</a> • 
  <a href="https://github.com/M4theus13/Digital-Watch#--tecnologias-">Tecnologias</a>
 </p>
 
@@ -17,7 +17,7 @@
 <p align="center"> Para testar o projeto, segue o <a href='https://digitalclock.bohr.io'>Link</a></p>
 
 <div align="center">
-<h2>Resultados</h2>
+<h2>Resultado</h2>
 <h3>Desktop</h3>
 <a href='https://github.com/M4theus13'>
 	<img width="49%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/desktopClock.png">

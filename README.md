@@ -1,4 +1,4 @@
-<h1 align="center">Relógio Digital</h1>
+<h1 align="center">Digital Watch</h1>
 
 <p align="center">
  <a href="https://github.com/M4theus13/Digital-Watch#descri%C3%A7%C3%A3o-do-projeto">Descrição do Projeto</a> •
@@ -9,10 +9,10 @@
 <h2 align="center">Descrição do Projeto</h2>
 
 <h4 align="center"> 
-	✅ Relógio Digital 🚀 Finalizado ✅
+	✅ Digital Watch 🚀 Finalizado ✅
 </h4>
 
-<p align="center"> Relógio Digital e Cronômetro Web.</p>
+<p align="center"> Relógio Digital e Cronômetro.</p>
 <p align="center"> O projeto contém página de relógio digital e também uma página com cronômetro.</p>
 <p align="center"> Para testar o projeto, segue o <a href='https://digitalclock.bohr.io'>Link</a></p>
 

@@ -1,7 +1,7 @@
 <h1 align="center">Relógio Digital</h1>
 
 <p align="center">
- <a href="https://github.com/M4theus13/Digital-Watch/blob/main/README.md#descri%C3%A7%C3%A3o-do-projeto">Descrição do Projeto</a> •
+ <a href="https://github.com/M4theus13/Digital-Watch#descri%C3%A7%C3%A3o-do-projeto">Descrição do Projeto</a> •
  <a href="https://github.com/M4theus13/Digital-Watch/blob/main/README.md#resultados">Resultados</a> • 
  <a href="https://github.com/M4theus13/Digital-Watch/blob/main/README.md#--tecnologias-">Tecnologias</a>
 </p>

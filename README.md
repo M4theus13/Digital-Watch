@@ -20,14 +20,14 @@
 <h2>Resultado</h2>
 <h3>Desktop</h3>
 <a href='https://github.com/M4theus13'>
-	<img width="49%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/desktopClock.png">
-	<img width="49%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/desktopTimer.png">
+	<img width="100%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/desktopClock.png">
+	<img width="100%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/desktopTimer.png">
 </a>
 
 <h3>Tablet</h3>
 <a href='https://github.com/M4theus13'>
-	<img width="39%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/tabletClock.png">
-	<img width="39%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/tabetTimer.png">
+	<img width="70%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/tabletClock.png">
+	<img width="70%" src="https://github.com/M4theus13/Assets_Projects/blob/main/Digital-Watch/tabetTimer.png">
 </a>
 
 <h3>Mobile</h3>

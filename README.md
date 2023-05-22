@@ -2,8 +2,8 @@
 
 <p align="center">
  <a href="https://github.com/M4theus13/Digital-Watch#descri%C3%A7%C3%A3o-do-projeto">Descrição do Projeto</a> •
- <a href="https://github.com/M4theus13/Digital-Watch/blob/main/README.md#resultados">Resultados</a> • 
- <a href="https://github.com/M4theus13/Digital-Watch/blob/main/README.md#--tecnologias-">Tecnologias</a>
+ <a href="https://github.com/M4theus13/Digital-Watch#resultados">Resultados</a> • 
+ <a href="https://github.com/M4theus13/Digital-Watch#--tecnologias-">Tecnologias</a>
 </p>
 
 <h2 align="center">Descrição do Projeto</h2>
